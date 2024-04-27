@@ -40,12 +40,12 @@ header img{
     margin: 0 auto;
 }
 .paraHover a:hover{
-    color:white;
+    color:rgb(255, 255, 255);
     
 }
 .paraHover a{
     text-decoration: none;
-    color: white;
+    color: #ffffffBf;
 }
 .palabras{
     display: flex;
@@ -112,6 +112,11 @@ color: white;
     font-size: medium;
     padding: 0.6rem 2rem 0.6rem 2rem;
 }
+.titulosHeader button:hover{
+    background: #153243;
+    color: #ffffff;
+    border: none;
+}
 .titulosHeader{
     margin: 0 auto;
     text-align: center;
@@ -154,11 +159,15 @@ color: white;
     font-size: 32px;
     height: 2rem;
 }
+.textoImagen a:hover{
+    color: #BFD1FF;
+}
 /**fin main**/
 
 /**seginda parte body**/
 .segundaParteBody{
     background-color: #f3f9fb;
+    font-family: sans-serif;
 }
 .titulo2{
     width: 120rem;
@@ -175,4 +184,47 @@ color: white;
 .fotosYtexto{
     width: 120rem;
     margin: 0 auto;
+}
+.imagen img{
+    width: 38rem;
+    height: 22rem;
+}
+.fila1{
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.fila2{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    flex-basis: 50%;
+}
+.texto{
+    font-size: 1.3rem;
+    width: 34rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.texto p{
+    font-size: 1.8rem;
+    color: #3A3A3A;
+    margin-top: 3rem;
+}
+.texto a{
+    color: #105763;
+    font-size: 2rem;
+    text-decoration: none;
+}
+.texto button{
+    margin-top: 1.5rem;
+    padding: 0.9rem 3rem;
+    border: none;
+    background-color: #1a6c7a;
+    color: white;
+}
+button:hover{
+    color: black;
+    background: #BFD1FF;;
 }
