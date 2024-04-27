@@ -168,7 +168,6 @@ color: white;
 .segundaParteBody{
     background-color: #f3f9fb;
     font-family: sans-serif;
-    height: 112rem;
 }
 .titulo2{
     width: 120rem;
@@ -292,6 +291,29 @@ button:hover{
 }
 .textoConocenos button:hover{
     color: black;
-    border: none;
+    border: solid #f3f9fb;
     background: #f3f9fb
+}
+/**fin tercera parte body**/
+
+/**footer**/
+.parte1{
+    background-color: #ffffff;
+    height: 15rem;
+    border-bottom: solid #BFD1FF .1rem;
+}
+.parte1 img{
+    margin-top: 4.5rem;
+}
+.parte2{
+    background-color: #ffffff;
+    height: 15rem;
+}
+.asuntosLegales{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 38rem;
+    margin: 0 auto;
+    margin-top: 1.7%;
 }
