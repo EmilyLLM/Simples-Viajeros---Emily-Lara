@@ -168,6 +168,7 @@ color: white;
 .segundaParteBody{
     background-color: #f3f9fb;
     font-family: sans-serif;
+    height: 112rem;
 }
 .titulo2{
     width: 120rem;
@@ -228,3 +229,21 @@ button:hover{
     color: black;
     background: #BFD1FF;;
 }
+.paraAfter a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #3A3A3A;
+    margin-top: 6rem;
+    font-size: smaller;
+    margin-bottom: 1rem;
+}
+.paraAfter::after{
+    content: '';
+    display: block;
+    width: 11rem;
+    height: .2rem;
+    background-color: #3A3A3A;
+    margin: 0 auto;
+}
+/**fin segunda parte de body**/
