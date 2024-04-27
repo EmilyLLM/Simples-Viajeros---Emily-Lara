@@ -17,18 +17,26 @@ body{
     background-size: cover;
     background-position: 53% 0%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     position: relative;
     z-index: 1;
 }
-
+/**no me permitio tener los elementos sobre before :'V
+.menuHeader::before{
+    content: ''; 
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(74, 133, 139, 0.4);
+    position: absolute;
+    z-index: 2;
+}
+**/
 header img{
     margin-top: 1.5rem;
 }
 .menuHeader{
     display: flex;
     justify-content: space-between;
-    width: 121rem;
+    width: 120rem;
     margin: 0 auto;
 }
 .paraHover a:hover{
@@ -59,18 +67,18 @@ header img{
     justify-content: space-around;
     width: 50rem;
 }
-.interactivo input{
+.A{
     padding-left: 2rem;
     margin-right: 0.9rem;
     margin-left: 1.5rem;
     border: none;
     border-radius: 1.7px;
 }
-.H{
+.interactivo button{
     background-color: #1a6c7a;
     border: none;
     color: white;
-    padding: 0 4rem ;
+    padding: 0 3.4rem ;
     font-family: sans-serif;
     font-size:large;
 }
@@ -78,4 +86,64 @@ header img{
     background-color: #1a6c7a;
     border: none;
     padding: 0 0 0 6rem;
+}
+.titulosHeader h1{
+font-size: 5rem;
+font-family: sans-serif;
+color: white;
+}
+.titulosHeader h2{
+    font-family: sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+.titulosHeader p{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    margin-bottom: 5rem;
+    font-size: 2rem;
+}
+.titulosHeader button{
+    background: #fff0;
+    color: white;
+    border: solid 0.2rem;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+}
+.titulosHeader{
+    margin: 0 auto;
+    text-align: center;
+    width: 78rem;
+    margin-top: 10rem
+}
+/**fin header**/
+
+/**main**/
+.contenedorMain{
+    background-color: #fff;
+    height: 140rem;
+}
+.imagenesViajes{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 11rem;
+}
+.imagenesViajes img{
+    height: 35rem;
+    width: 32rem;
+}
+.logo{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+.textoImagen{
+    display: flex;
+    position: relative;
+    transform: translate(-50%, -50%);
+    width: 30rem;
+    justify-content: space-between;
+    margin: 0 auto;
 }
