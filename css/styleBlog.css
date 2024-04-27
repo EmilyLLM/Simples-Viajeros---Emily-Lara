@@ -142,8 +142,15 @@ color: white;
 .textoImagen{
     display: flex;
     position: relative;
-    transform: translate(-50%, -50%);
-    width: 30rem;
+    transform: translate(1%, -1000%);
+    width: 112rem;
     justify-content: space-between;
     margin: 0 auto;
+}
+.textoImagen a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 32px;
+    height: 2rem;
 }
