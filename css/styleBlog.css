@@ -258,7 +258,9 @@ button:hover{
     background-attachment: fixed;
     position: relative;
     z-index: 1;
+    background-color: rgba(0.8, 500, 87, 0.3);
 }
+
 .fondoNuestraHistoria::before{
     content: "";
     height: 96vh;
@@ -267,6 +269,29 @@ button:hover{
     position: absolute;
     opacity: .6;
 }
-.terceraParteBody{
-    height: 50rem;
+.textoConocenos{
+    margin: 0 auto;
+    text-align: center;
+    width: 64rem;
+    position: relative;
+    transform: translate(1%, 80%);
+    color: #ffffff;
+}
+.textoConocenos p{
+    margin-top: 2rem;
+    font-size: 120%;
+}
+.textoConocenos button{
+    margin-top: 3rem;
+    background: #fff0;
+    color: white;
+    border: solid 0.2rem;
+    font-family: sans-serif;
+    font-size: medium;
+    padding: 0.6rem 2rem 0.6rem 2rem;
+}
+.textoConocenos button:hover{
+    color: black;
+    border: none;
+    background: #f3f9fb
 }
