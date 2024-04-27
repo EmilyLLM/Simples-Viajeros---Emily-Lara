@@ -247,3 +247,26 @@ button:hover{
     margin: 0 auto;
 }
 /**fin segunda parte de body**/
+
+/**tercera parte body**/
+.fondoNuestraHistoria{
+    background-image: url('../img/fogs-on-green-mountain-1054222.webp');
+    height: 96vh;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 1;
+}
+.fondoNuestraHistoria::before{
+    content: "";
+    height: 96vh;
+    width: 100%;
+    background-color: rgba(0.8, 70, 87, 0.9);
+    position: absolute;
+    opacity: .6;
+}
+.terceraParteBody{
+    height: 50rem;
+}
