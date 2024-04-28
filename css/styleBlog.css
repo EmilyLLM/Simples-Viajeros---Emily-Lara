@@ -20,7 +20,7 @@ body{
     position: relative;
     z-index: 1;
 }
-/**no me permitio tener los elementos sobre before :'V
+/**no me permitio tener los elementos sobre before :'V                                
 .menuHeader::before{
     content: ''; 
     width: 100%;
@@ -28,6 +28,7 @@ body{
     background-color: rgba(74, 133, 139, 0.4);
     position: absolute;
     z-index: 2;
+    align-content: center;
 }
 **/
 header img{
@@ -46,6 +47,7 @@ header img{
 .paraHover a{
     text-decoration: none;
     color: #ffffffBf;
+    
 }
 .palabras{
     display: flex;
@@ -74,18 +76,33 @@ header img{
     border: none;
     border-radius: 1.7px;
 }
-.interactivo button{
+.H{
     background-color: #1a6c7a;
     border: none;
-    color: white;
-    padding: 0 3.4rem ;
+    
+    padding: 0 3.4rem;
     font-family: sans-serif;
     font-size:large;
+}
+.H a:hover{
+    color: black;
+}
+.H a{
+    text-decoration: none;
+    color: white;
+}
+.lupa{
+    fill: #fff;
 }
 .E{
     background-color: #1a6c7a;
     border: none;
-    padding: 0 0 0 6rem;
+    padding: 0 2.5rem;
+}
+.E img{
+    margin-top: 0.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 .titulosHeader h1{
 font-size: 5rem;
