@@ -307,13 +307,50 @@ button:hover{
 }
 .parte2{
     background-color: #ffffff;
-    height: 15rem;
+    height: 11rem;
 }
 .asuntosLegales{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    width: 38rem;
+    width: 40rem;
     margin: 0 auto;
     margin-top: 1.7%;
+}
+.asuntosLegales a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-family: sans-serif;
+}
+.parte2 p{
+    margin-left: 9rem;
+    margin-top: 5rem;
+    color: #3A3A3A;
+    font-family: sans-serif;
+}
+.redesSociales{
+    display: flex;
+}
+.logoPrincipal{
+    margin-left: 9rem;
+}
+.redes{
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+}
+.redes svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 1.7rem;
+}
+.LGO{
+    background-color: #105763;
+    fill: #fff;
+    width: 5rem;
+    height: 7rem;
+    align-content: center;
+    align-items: center;
 }
